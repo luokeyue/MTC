@@ -1,0 +1,27 @@
+[
+    {
+        "group_name": "centralized_lock",
+        "hosts":[
+            {
+                "name":"host1",
+                "port":25557
+            },
+            {
+                "name":"lock_client",
+                "port":25558
+            },
+            {
+                "name":"lock_server",
+                "port":25559
+            }
+        ],
+        "mess_type": [
+            {
+                "name": "PageLockRequest"
+            },
+            {
+                "name": "PageLockReply"
+            }
+        ]
+    }
+]

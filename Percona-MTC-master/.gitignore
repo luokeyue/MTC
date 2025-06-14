@@ -1,0 +1,15 @@
+.vscode
+
+build/
+build-install/
+nohup.out
+
+.clangd/
+compile_commands.json
+
+boost*
+
+percona_server_impl.conf
+percona_connect_impl.json
+
+script/py/config.ini

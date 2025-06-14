@@ -1,0 +1,10 @@
+pager less;
+select * from CUSTOMER;
+select * from DISTRICT;
+select * from HISTORY;
+select * from  ITEM;
+select * from  NEW_ORDER;
+select * from OORDER;
+select * from ORDER_LINE;
+select * from STOCK;
+select * from WAREHOUSE;

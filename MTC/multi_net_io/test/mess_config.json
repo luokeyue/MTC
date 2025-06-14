@@ -1,0 +1,44 @@
+[
+    {
+        "group_name": "admin",
+        "hosts":[
+            {
+                "name":"host1",
+                "port":25585
+            },
+            {
+                "name":"host2",
+                "port":25586
+            }
+        ],
+        "mess_type": [
+            {
+                "name":"heart"
+            },
+            {
+                "name":"reply"
+            }
+        ]
+    },
+    {
+        "group_name": "remote_file",
+        "hosts":[
+            {
+                "name":"host1",
+                "port":25547
+            },
+            {
+                "name":"host2",
+                "port":25546
+            }
+        ],
+        "mess_type": [
+            {
+                "name": "file_open"
+            },
+            {
+                "name": "file_delete"
+            }
+        ]
+    }
+]

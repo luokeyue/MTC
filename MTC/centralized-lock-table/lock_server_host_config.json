@@ -1,0 +1,17 @@
+[
+    {
+        "name":"host1",
+        "ip":"127.0.0.1",
+        "is_local":false
+    },
+    {
+        "name":"lock_client",
+        "ip":"127.0.0.1",
+        "is_local":false
+    },
+    {
+        "name":"lock_server",
+        "ip":"127.0.0.1",
+        "is_local":true
+    }
+]
